@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>College Events</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>College Events Management</h1>
+            <nav>
+            <a href="index.html">Home</a>
+            <a href="event.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">contact</a>
+            </nav>
+        </header>
+        <main>
+            <section class="registration-page">
+                <h2>Event Registration</h2>
+                <div class="event-card">
+                    <section class="registration-section">
+                <form id="registrationForm">
+                    <p>
+                        <label for="name">Student Name:</label>
+                        <br>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </p>
+                    <p>
+                        <label for="mobile">Mobile Number:</label>
+                        <br>
+                        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+                    </p>
+                    <p>
+                        <label for="department">Enter your department:</label>
+                        <br>
+                        <input type="text" id="department" name="department" placeholder="Enter your department" required>
+                    </p>
+                    <p>
+                        <label for="event">Select Event:</label>
+                        <br>
+                        <select id="event" name="event">
+                            <option value="">--Select Event --</option>
+                            <option value="cultural">Annual Cultural Fest</option>
+                            <option value="technical">Technical Fest</option>
+                            <option value="sports">Sports Day</option>       
+                        </select>
+                    </p>
+                    <p>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+                    </p>
+                    <button type="submit" class="btn">Submit Registration</button>
+                </form>    
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h3>College Event Management</h3>
+                    <p><b>Address:</b>Ahmedabad, Gujarat</p>
+                    <p><b>Phone:</b> +91 7600780056 / 8238882352</p>
+                    <p><b>Email:</b> info@ktkmimca.edu.in</p>
+            <p>&copy;2026 College Event Management</p>
+        </footer>
+        <script src="js/event.js"></script>
+        <script src="js/registration.js"></script>
+    </body>
+</html>
+                    

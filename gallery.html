@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Event Gallery</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>College Events Management</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="event.html">Events</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section class="gallery-page">
+                <h2>Event Gallery</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="images/cultural2.jpg" alt="Cultural Fest" onclick="openImage(this.src)">
+                        <h3>Cultural Festival</h3>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/cultural3.jpg" alt="Cultural Fest" onclick="openImage(this.src)">
+                        <h3>Cultural Festival</h3>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/cultural4.jpg" alt="Cultural Fest" onclick="openImage(this.src)">
+                        <h3>Cultural Festival</h3>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/technical.jpg" alt="Technical Fest" onclick="openImage(this.src)">
+                        <h3>Technical Festival</h3>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/technical2.jpg" alt="Technical Fest" onclick="openImage(this.src)">
+                        <h3>Technical Festival</h3>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/technical3.png" alt="Technical Fest" onclick="openImage(this.src)">
+                        <h3>Technical Festival</h3>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/sports.jpg" alt="Sports Day" onclick="openImage(this.src)">
+                        <h3>Sports Day</h3>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h3>College Event Management</h3>
+                    <p><b>Address:</b>Ahmedabad, Gujarat</p>
+                    <p><b>Phone:</b> +91 7600780056 / 8238882352</p>
+                    <p><b>Email:</b> info@ktkmimca.edu.in</p>
+            <p>&copy;2026 College Event Management</p>
+        </footer>
+        <script src="js/gallery.js"></script>
+        <div id="imagePopup" class="image-popup">
+            <span class="close-btn" onclick="closeImage()">&times;</span>
+            <img id="popupImage" src="" alt="Gallery Image">
+        </div>
+        <script src="js/gallery.js"></script>
+        </body>
+</html>
